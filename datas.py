@@ -1,3 +1,4 @@
+from random import randint
 from time import sleep
 starting_data_day = 22
 starting_data_month = 2

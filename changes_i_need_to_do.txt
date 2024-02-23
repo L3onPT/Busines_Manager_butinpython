@@ -1,0 +1,9 @@
+Na decisions_making.py quando faço a compra de uma fabrica, eu faço primeiro estatistica.fabrica tal tal tal, mas eu acho 
+que não deveria colocar na primeira linha estatistica.fabrica + 1, porque eu não tenho a certeza que se nessa linha ela já 
+vai mudar o valor da variavel na estatistica.py, e se mudar, ele vai fazer fabricas 2 em 2 e isso pode ser um possível bug.
+Para tentar resolver isso eu teria de deletar as linhas 3-9 e simplesmente importar a estatistica, depois na main eu tirava
+tudo o que tava la, menos o money, e deixava apenas main(money, estatistica), assim, depois no inicio da função eu puxo a 
+variavel daqui, aí todas as vezes que construimos uma fabrica nova, ele vai chamar novamente as variaveis e assim temos 
+valores correctos. Tenho que testar esse bug em outro documento porque aqui dá muita trabalheira, mas é suposto não dar 
+problema. Eu acho que não vai bugar, mas é mesmo melhor eu colocar o import de todas as variaveis para dentro da função
+main para ter sempre valores direitinhos.
