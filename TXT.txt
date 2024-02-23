@@ -1,0 +1,31 @@
+Ideias para o jogo:
+
+Nomes para o jogo:
+- Business Simulator
+
+Ideia principal:
+- Criar empresas
+- Gerir empresas
+- Impostos
+- Contas de energia
+- Funcionários
+- Maquinário
+- Eventos
+- Datas
+- Marcas reais
+- Sistema de salvar e dar load no jogo
+- telas diferentes para as diferentes cenas.
+
+Taxas:
+- Empresas pequenas:
+-- Luz: -25%
+-- Àgua: -25%
+
+- Empresas médias:
+-- Luz: -5%
+-- Água: -5%
+
+- Empresas Grandes:
+-- Luz: +5%
+-- Água: +5%
+
